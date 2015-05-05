@@ -1,0 +1,11 @@
+cows_and_bulls_ui.c
+Compiling the above file produces a binary that lets the user play the cows and bulls game
+
+solve_cb_ui.c
+Compiling the above file produces a binary where the computer guesses the number with feedback from the user
+
+test_solve_cb.c
+Tests the computer solution over multiple iterations. Has command line options to control run count and verbosity
+
+solve_cb.c
+Core of the solution. File included by both solve_cb_ui.c and test_solve_cb.c
